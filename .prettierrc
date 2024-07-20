@@ -1,0 +1,28 @@
+{
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 120,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "options": {
+        "semi": true,
+        "singleQuote": true,
+        "jsxSingleQuote": false,
+        "singleAttributePerLine": false,
+        "trailingComma": "es5"
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "singleQuote": false,
+        "trailingComma": "none"
+      }
+    }
+  ]
+}
